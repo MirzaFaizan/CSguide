@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.dmt.faizanmaaz.csguide.CoursesActivity" />
+        <activity android:name="com.dmt.faizanmaaz.csguide.MainActivity" />
 
         <meta-data
             android:name="android.support.VERSION"
