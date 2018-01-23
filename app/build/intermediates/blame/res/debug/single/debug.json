@@ -28,6 +28,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_insert_drive_file_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_insert_drive_file_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -60,6 +64,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4227fd2ae95e7c4697eb1e6ad92897aa\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_downward_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_arrow_downward_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\color\\abc_hint_foreground_material_light.xml"
     },
@@ -84,12 +92,12 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
@@ -166,6 +174,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_android_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_android_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -256,6 +268,18 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_build_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_build_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circlebackgroundgreen.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\circlebackgroundgreen.xml"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_closed_caption_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_closed_caption_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -266,10 +290,6 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cerclebackgroundpink.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\cerclebackgroundpink.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -360,10 +380,6 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_markunread_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_markunread_black_24dp.xml"
-    },
-    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4227fd2ae95e7c4697eb1e6ad92897aa\\res\\layout-v21\\notification_template_custom_big.xml"
     },
@@ -404,8 +420,8 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_android_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_android_black_24dp.xml"
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chrome_reader_mode_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_chrome_reader_mode_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -516,6 +532,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_hide_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_keyboard_hide_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4227fd2ae95e7c4697eb1e6ad92897aa\\res\\drawable\\notification_tile_bg.xml"
     },
@@ -534,6 +554,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_brush_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_brush_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -608,6 +632,14 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circlebackgrounddeeppurple.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\circlebackgrounddeeppurple.xml"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_desktop_mac_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_desktop_mac_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-v23\\abc_control_background_material.xml"
     },
@@ -626,6 +658,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_dialog_title_material.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circlebackgroundpink.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\circlebackgroundpink.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -716,6 +752,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_filter_list_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_filter_list_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -732,6 +772,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
@@ -746,10 +790,6 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4227fd2ae95e7c4697eb1e6ad92897aa\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_keyboard_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_keyboard_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -786,10 +826,6 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
         "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cerclebackgroundpurple.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\cerclebackgroundpurple.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -844,20 +880,12 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_device_hub_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_device_hub_black_24dp.xml"
-    },
-    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cerclebackgroundyello.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\cerclebackgroundyello.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
@@ -870,6 +898,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_grid_on_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_grid_on_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -904,16 +936,16 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_assignment_black_24dp.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cerclebackgroundgreen.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\cerclebackgroundgreen.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
@@ -976,8 +1008,8 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_contact_mail_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_contact_mail_black_24dp.xml"
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circlebackgroundyellow.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\circlebackgroundyellow.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
@@ -1022,6 +1054,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shadow.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\shadow.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
@@ -1282,6 +1318,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contact_phone_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_contact_phone_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1572,10 +1612,6 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_apps_black_24dp.xml.flat",
-        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable-v24\\ic_apps_black_24dp.xml"
-    },
-    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
@@ -1590,6 +1626,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email_black_24dp.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_email_black_24dp.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
