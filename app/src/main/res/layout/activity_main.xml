@@ -21,7 +21,7 @@
             android:layout_gravity="center"
             android:elevation="10dp"
             android:padding="2dp"
-            android:text="Course Content"
+            android:text=" CP Course Content"
             android:textColor="@android:color/white"
             android:textSize="23dp"
             android:textStyle="bold" />

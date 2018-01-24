@@ -7,5 +7,11 @@
     <color name="deeppurple">#7c4dff</color>
     <color name="yellow">#ffb300</color>
     <color name="green">#00bfa5</color>
+    <color name="teal">#008080</color>
+    <color name="aqua">#00ffff</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="lightgreen">#aaff77</color>
+    <color name="lightblue">#77aaff</color>
+    <color name="lightpink">#ff77aa</color>
     <color name="colorAccent">#FF4081</color>
 </resources>

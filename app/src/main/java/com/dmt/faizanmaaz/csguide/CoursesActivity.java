@@ -17,4 +17,24 @@ public class CoursesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+    public void MAD_click(View view) {
+        Intent intent = new Intent(this, MADMain2Activity.class);
+        startActivity(intent);
+    }
+    public void WEB_click(View view) {
+        Intent intent = new Intent(this, WEBMain2Activity.class);
+        startActivity(intent);
+    }
+    public void Networking_click(View view) {
+        Intent intent = new Intent(this, NetworkingMain2Activity.class);
+        startActivity(intent);
+    }
+    public void DSA_click(View view) {
+        Intent intent = new Intent(this, DSAMain2Activity.class);
+        startActivity(intent);
+    }
+    public void OOP_click(View view) {
+        Intent intent = new Intent(this, OOPMain2Activity.class);
+        startActivity(intent);
+    }
 }

@@ -17,7 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".CoursesActivity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MADMain2Activity" />
+        <activity android:name=".WEBMain2Activity" />
+        <activity android:name=".NetworkingMain2Activity" />
+        <activity android:name=".DSAMain2Activity" />
+        <activity android:name=".OOPMain2Activity"></activity>
     </application>
 
 </manifest>
