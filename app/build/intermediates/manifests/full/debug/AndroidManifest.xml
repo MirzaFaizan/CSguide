@@ -31,6 +31,7 @@
         <activity android:name="com.dmt.faizanmaaz.csguide.NetworkingMain2Activity" />
         <activity android:name="com.dmt.faizanmaaz.csguide.DSAMain2Activity" />
         <activity android:name="com.dmt.faizanmaaz.csguide.OOPMain2Activity" />
+        <activity android:name="com.dmt.faizanmaaz.csguide.ContentReader" />
 
         <meta-data
             android:name="android.support.VERSION"

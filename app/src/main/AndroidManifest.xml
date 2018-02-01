@@ -22,7 +22,8 @@
         <activity android:name=".WEBMain2Activity" />
         <activity android:name=".NetworkingMain2Activity" />
         <activity android:name=".DSAMain2Activity" />
-        <activity android:name=".OOPMain2Activity"></activity>
+        <activity android:name=".OOPMain2Activity" />
+        <activity android:name=".ContentReader"></activity>
     </application>
 
 </manifest>

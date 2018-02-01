@@ -21,7 +21,7 @@
             android:layout_gravity="center"
             android:elevation="10dp"
             android:padding="2dp"
-            android:text=" Networking Course Content"
+            android:text=" C Sharp Course Content"
             android:textColor="@android:color/white"
             android:textSize="23dp"
             android:textStyle="bold" />
@@ -74,7 +74,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Introduction of computer networking"
+                            android:text="Introduction of C#"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -113,7 +113,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Uses of computer networks"
+                            android:text="Writing C# classes"
                             android:textSize="15sp"
                             android:textStyle="bold" />
 
@@ -145,7 +145,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Basic components of a network system"
+                            android:text="Inheritance and polymorphism"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -185,7 +185,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Interconnection with other networks"
+                            android:text="Exception Handling"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -226,7 +226,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Software and network architecture"
+                            android:text="Delegates and Events"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -257,7 +257,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Circuits for voice and data networks"
+                            android:text="Multithreading"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>

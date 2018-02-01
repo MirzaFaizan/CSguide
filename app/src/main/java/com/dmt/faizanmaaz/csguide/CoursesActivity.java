@@ -37,4 +37,7 @@ public class CoursesActivity extends AppCompatActivity {
         Intent intent = new Intent(this, OOPMain2Activity.class);
         startActivity(intent);
     }
+
+    public void madintro(View view) {
+    }
 }

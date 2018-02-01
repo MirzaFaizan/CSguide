@@ -2612,6 +2612,10 @@
         "source": "C:\\Users\\Adnan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ad9a6a45c17a86a1cf1bdfe804df2a1\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_content_reader.xml.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\layout\\activity_content_reader.xml"
+    },
+    {
         "merged": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -2994,6 +2998,10 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\raw_mad.csv.flat",
+        "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\raw\\mad.csv"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",

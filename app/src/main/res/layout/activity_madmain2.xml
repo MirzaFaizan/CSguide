@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
-    tools:context="com.dmt.faizanmaaz.csguide.CoursesActivity">
+    tools:context="com.dmt.faizanmaaz.csguide.MADMain2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -54,6 +54,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:onClick="intro"
+                    android:id="@+id/madintroduction"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
@@ -226,7 +228,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Loaded and Appearing views"
+                            android:text="Designing Mobile User interface"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
