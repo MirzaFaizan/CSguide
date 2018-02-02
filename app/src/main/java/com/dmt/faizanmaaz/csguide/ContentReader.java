@@ -1,10 +1,12 @@
 package com.dmt.faizanmaaz.csguide;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.InputStream;
 import java.util.List;
@@ -15,12 +17,13 @@ public class ContentReader extends AppCompatActivity {
     content currentC;
     TextView txtContent;
     Button butNext, butPrev;
+    String contentid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_reader);
         Bundle b = getIntent().getExtras();
-        String contentid=b.getString("Contentid");
+        contentid=b.getString("Contentid");
         //getting data from csv file
         InputStream inputStream=null;
         switch (b.getString("FileName")){
@@ -50,11 +53,30 @@ public class ContentReader extends AppCompatActivity {
 
                 if(qid<quesList.size()){
                     qid++;
-                    currentC=quesList.get(qid);
+                    try {
+                        currentC=quesList.get(qid);
+                    }
+                    catch (Exception e){
+                        String version = contentid;
+                        String newVersion = "c" + (Integer.parseInt(version.substring(1,version.length()))+1);
+                        // Pushing to new Activity
+                        Intent intent = new Intent(ContentReader.this,ContentReader.class);
+                        Bundle b = new Bundle();
+                        b.putString("Contentid", newVersion);
+                        b.putString("FileName","mad");
+                        intent.putExtras(b);
+                        startActivity(intent);
+                        ContentReader.this.finish();
+                    }
+
                     setReadContentView();
                 }
                 else{
-                    //shift to other activity
+                    String version = contentid;
+                    String newVersion = "c" + (Integer.parseInt(version.substring(1,version.length()))+1);
+                    Toast toast= Toast.makeText(getApplicationContext(),newVersion,Toast.LENGTH_LONG);
+                    toast.setMargin(50,50);
+                    toast.show();
                 }
                 if(qid>=1){
                     butPrev.setVisibility(View.VISIBLE);
