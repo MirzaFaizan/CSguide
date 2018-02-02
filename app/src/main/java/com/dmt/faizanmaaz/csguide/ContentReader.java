@@ -20,17 +20,17 @@ public class ContentReader extends AppCompatActivity {
     TextView txtContent;
     Button butNext, butPrev;
     String contentid;
-    boolean quiznext;
+    String Filename;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_reader);
-        Bundle b = getIntent().getExtras();
-        quiznext= b.getBoolean("nextisquiz");
-        contentid=b.getString("Contentid");
+        final Bundle bouter = getIntent().getExtras();
+        contentid=bouter.getString("Contentid");
+        Filename=bouter.getString("FileName");
         //getting data from csv file
         InputStream inputStream=null;
-        switch (b.getString("FileName")){
+        switch (Filename){
             case "mad":
                inputStream  = getResources().openRawResource(R.raw.mad);
                break;
@@ -61,47 +61,22 @@ public class ContentReader extends AppCompatActivity {
                         currentC=quesList.get(qid);
                     }
                     catch (Exception e){
-                        if(!quiznext) {
-                            String version = contentid;
-                            String newVersion = "c" + (Integer.parseInt(version.substring(1, version.length())) + 1);
-                            // Pushing to new Activity
-                            Intent intent = new Intent(ContentReader.this, ContentReader.class);
-                            Bundle b = new Bundle();
-                            b.putString("Contentid", newVersion);
-                            b.putString("FileName", "mad");
-                            intent.putExtras(b);
-                            startActivity(intent);
-                            ContentReader.this.finish();
-                        }
-                        else if(quiznext){
-                            String version = contentid;
-                            String newVersion = "c" + (Integer.parseInt(version.substring(1,version.length()))+1);
-                            Toast toast= Toast.makeText(getApplicationContext(),newVersion,Toast.LENGTH_LONG);
-                            toast.setMargin(50,50);
-                            toast.show();
-                            AlertDialog.Builder alertBox = new AlertDialog.Builder(ContentReader.this);
-                            alertBox.setTitle("Do you want to take the quiz?")
-                                    .setCancelable(false)
-                                    .setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                                        @Override
-                                        public void onClick(DialogInterface dialogInterface, int i) {
-                                            Toast toast= Toast.makeText(getApplicationContext(),"Yes i want to take Quiz",Toast.LENGTH_LONG);
-                                            toast.setMargin(50,50);
-                                            toast.show();
-                                        }
-                                    })
-                                    .setNegativeButton("No Take me back to main Screen", new DialogInterface.OnClickListener() {
-                                        @Override
-                                        public void onClick(DialogInterface dialogInterface, int i) {
-                                            Toast toast= Toast.makeText(getApplicationContext(),"No i Don't want to take the quiz",Toast.LENGTH_LONG);
-                                            toast.setMargin(50,50);
-                                            toast.show();
-                                        }
-                                    });
-                            AlertDialog alert = alertBox.create();
-
-                            alert.show();
-                        }
+                            //shows true or false for next
+                            String version1 = contentid;
+                            if(Integer.parseInt(version1.substring(1,version1.length()))==3||Integer.parseInt(version1.substring(1,version1.length()))==6){
+                                TakeQuiz();
+                            }else {
+                                String version = contentid;
+                                String newVersion = "c" + (Integer.parseInt(version.substring(1, version.length())) + 1);
+                                // Pushing to new Activity
+                                Intent intent = new Intent(ContentReader.this, ContentReader.class);
+                                Bundle b = new Bundle();
+                                b.putString("Contentid", newVersion);
+                                b.putString("FileName", Filename);
+                                intent.putExtras(b);
+                                startActivity(intent);
+                                ContentReader.this.finish();
+                            }
                     }
 
                     setReadContentView();
@@ -142,6 +117,31 @@ public class ContentReader extends AppCompatActivity {
             str+=line+System.lineSeparator();
         }
         txtContent.setText(str);
+    }
+
+    public void TakeQuiz(){
+        AlertDialog.Builder alertBox = new AlertDialog.Builder(ContentReader.this);
+        alertBox.setTitle("Do you want to take the quiz?")
+                .setCancelable(false)
+                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast toast= Toast.makeText(getApplicationContext(),"Yes i want to take Quiz",Toast.LENGTH_LONG);
+                        toast.setMargin(50,50);
+                        toast.show();
+                    }
+                })
+                .setNegativeButton("No Take me back to main Screen", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast toast= Toast.makeText(getApplicationContext(),"No i Don't want to take the quiz",Toast.LENGTH_LONG);
+                        toast.setMargin(50,50);
+                        toast.show();
+                    }
+                });
+        AlertDialog alert = alertBox.create();
+
+        alert.show();
     }
 
     public void intro(View view) {
