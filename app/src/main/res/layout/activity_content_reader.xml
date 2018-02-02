@@ -42,7 +42,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:padding="10dp"
+                    android:padding="15dp"
+                    android:textColor="@color/Black"
                     android:text="Select From the following Modules to read"
                     />
             </RelativeLayout>

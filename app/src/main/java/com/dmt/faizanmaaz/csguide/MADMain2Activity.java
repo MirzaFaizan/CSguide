@@ -23,4 +23,49 @@ public class MADMain2Activity extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
+    public void Variables(View view) {
+
+        Intent intent = new Intent(this,ContentReader.class);
+        Bundle b = new Bundle();
+        b.putString("Contentid", "c2");
+        b.putString("FileName","mad");
+        intent.putExtras(b);
+        startActivity(intent);
+    }
+    public void classes(View view) {
+
+        Intent intent = new Intent(this,ContentReader.class);
+        Bundle b = new Bundle();
+        b.putString("Contentid", "c3");
+        b.putString("FileName","mad");
+        intent.putExtras(b);
+        startActivity(intent);
+    }
+    public void structures(View view) {
+
+        Intent intent = new Intent(this,ContentReader.class);
+        Bundle b = new Bundle();
+        b.putString("Contentid", "c4");
+        b.putString("FileName","mad");
+        intent.putExtras(b);
+        startActivity(intent);
+    }
+    public void mobile_interface(View view) {
+
+        Intent intent = new Intent(this,ContentReader.class);
+        Bundle b = new Bundle();
+        b.putString("Contentid", "c5");
+        b.putString("FileName","mad");
+        intent.putExtras(b);
+        startActivity(intent);
+    }
+    public void Images(View view) {
+
+        Intent intent = new Intent(this,ContentReader.class);
+        Bundle b = new Bundle();
+        b.putString("Contentid", "c6");
+        b.putString("FileName","mad");
+        intent.putExtras(b);
+        startActivity(intent);
+    }
 }

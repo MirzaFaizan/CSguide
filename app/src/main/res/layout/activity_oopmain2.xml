@@ -145,7 +145,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Implementation of set and get functions"
+                            android:text="Association"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -185,7 +185,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Inheritance hierarchies"
+                            android:text="Inheritance"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -226,7 +226,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Composition concepts"
+                            android:text="Polymorphism"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -257,7 +257,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Polymorphism Concepts"
+                            android:text="Operator Overloading"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
