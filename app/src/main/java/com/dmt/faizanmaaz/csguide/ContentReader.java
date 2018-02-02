@@ -1,5 +1,6 @@
 package com.dmt.faizanmaaz.csguide;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -134,9 +135,7 @@ public class ContentReader extends AppCompatActivity {
                 .setNegativeButton("No Take me back to main Screen", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast toast= Toast.makeText(getApplicationContext(),"No i Don't want to take the quiz",Toast.LENGTH_LONG);
-                        toast.setMargin(50,50);
-                        toast.show();
+                        ContentReader.super.onBackPressed();
                     }
                 });
         AlertDialog alert = alertBox.create();
@@ -144,7 +143,9 @@ public class ContentReader extends AppCompatActivity {
         alert.show();
     }
 
-    public void intro(View view) {
+    public void openQuiz(String quizid){
+
     }
+
 }
 
