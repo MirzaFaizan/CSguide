@@ -5,11 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ViewFlipper;
 
 import java.io.InputStream;
 import java.util.List;
@@ -25,6 +32,8 @@ public class QuizReader extends AppCompatActivity {
     RadioButton rda, rdb, rdc,rdd;
     Button butNext;
     String quizid;
+    boolean explained;
+    ViewFlipper flipper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,30 +56,26 @@ public class QuizReader extends AppCompatActivity {
         rdc=(RadioButton)findViewById(R.id.radio2);
         rdd=(RadioButton)findViewById(R.id.radio3);
         butNext=(Button)findViewById(R.id.button1);
+        flipper= (ViewFlipper)findViewById(R.id.flipper);
         setQuestionView();
+        explained =false;
         butNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 RadioGroup grp=(RadioGroup)findViewById(R.id.radioGroup1);
                 RadioButton answer=(RadioButton)findViewById(grp.getCheckedRadioButtonId());
                 Log.d("your ans", currentQ.getANSWER()+" "+answer.getText());
-                if(currentQ.getANSWER().equals(answer.getText()))
-                {
-                    score++;
-                    Log.d("score", "Your score"+score);
+                if(currentQ.getANSWER().equals(answer.getText())) {
+                        explainAnswer(true);
+
                 }
-                if(qid<quesList.size()){
-                    currentQ=quesList.get(qid);
-                    setQuestionView();
-                }else{
-                    Intent intent = new Intent(QuizReader.this, QuizResult.class);
-                    Bundle b = new Bundle();
-                    b.putString("quizid",quizid);
-                    b.putInt("score", score); //Your score
-                    intent.putExtras(b); //Put your score to your next Intent
-                    startActivity(intent);
-                    finish();
+                if(!currentQ.getANSWER().equals(answer.getText())){
+
+                        explainAnswer(false);
+
                 }
+
+
             }
         });
     }
@@ -84,5 +89,94 @@ public class QuizReader extends AppCompatActivity {
         rdd.setText(currentQ.getOPTD());
         qid++;
     }
+
+    private void explainAnswer(boolean output){
+        if(explained==false){
+            if(output==false){
+                TextView tv_wr = (TextView)findViewById(R.id.rightwrong);
+                tv_wr.setText("Wrong Answer");
+                TextView tv_explaination = (TextView)findViewById(R.id.explainpls);
+                tv_explaination.setText(currentQ.getExplanation());
+                ImageView IV_wr= (ImageView)findViewById(R.id.imageview);
+                IV_wr.setImageResource(R.drawable.wrong);
+                flipper.setInAnimation(inFromRightAnimation());
+                flipper.setOutAnimation(outToLeftAnimation());
+                flipper.showNext();
+
+            }
+            else {
+                score++;
+                Log.d("score", "Your score"+score);
+                TextView tv_wr = (TextView)findViewById(R.id.rightwrong);
+                tv_wr.setText("Correct Answer");
+                TextView tv_explaination = (TextView)findViewById(R.id.explainpls);
+                tv_explaination.setText(currentQ.getExplanation());
+                ImageView IV_wr= (ImageView)findViewById(R.id.imageview);
+                IV_wr.setImageResource(R.drawable.right);
+                flipper.setInAnimation(inFromRightAnimation());
+                flipper.setOutAnimation(outToLeftAnimation());
+                flipper.showNext();
+            }
+        }
+
+        if(explained==true){
+            // when all questions end
+            if(qid<quesList.size()){
+                currentQ=quesList.get(qid);
+                setQuestionView();
+            }else{
+                Intent intent = new Intent(QuizReader.this, QuizResult.class);
+                Bundle b = new Bundle();
+                b.putString("quizid",quizid);
+                b.putInt("score", score); //Your score
+                intent.putExtras(b); //Put your score to your next Intent
+                startActivity(intent);
+                finish();
+            }
+        }
+        explained=true;
+    }
+
+    //animations waly shashky
+
+    private Animation inFromRightAnimation() {
+
+        Animation inFromRight = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT,  +1.0f, Animation.RELATIVE_TO_PARENT,  0.0f,
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,   0.0f
+        );
+        inFromRight.setDuration(500);
+        inFromRight.setInterpolator(new AccelerateInterpolator());
+        return inFromRight;
+    }
+    private Animation outToLeftAnimation() {
+        Animation outtoLeft = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,  -1.0f,
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,   0.0f
+        );
+        outtoLeft.setDuration(500);
+        outtoLeft.setInterpolator(new AccelerateInterpolator());
+        return outtoLeft;
+    }
+
+    private Animation inFromLeftAnimation() {
+        Animation inFromLeft = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT,  -1.0f, Animation.RELATIVE_TO_PARENT,  0.0f,
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,   0.0f
+        );
+        inFromLeft.setDuration(500);
+        inFromLeft.setInterpolator(new AccelerateInterpolator());
+        return inFromLeft;
+    }
+    private Animation outToRightAnimation() {
+        Animation outtoRight = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,  +1.0f,
+                Animation.RELATIVE_TO_PARENT,  0.0f, Animation.RELATIVE_TO_PARENT,   0.0f
+        );
+        outtoRight.setDuration(500);
+        outtoRight.setInterpolator(new AccelerateInterpolator());
+        return outtoRight;
+    }
+
 
 }
