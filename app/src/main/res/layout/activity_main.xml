@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
-    tools:context="com.dmt.faizanmaaz.csguide.CoursesActivity">
+    tools:context="com.dmt.faizanmaaz.csguide.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -53,6 +53,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="cpintro"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -92,6 +93,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="cpvariables"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -125,6 +127,7 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:onClick="cpfunctions"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
@@ -165,6 +168,7 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
+                    android:onClick="cpstrings"
                     android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
@@ -205,6 +209,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="cpgraphics"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -236,6 +241,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="cpfile"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 

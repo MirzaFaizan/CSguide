@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
-    tools:context="com.dmt.faizanmaaz.csguide.CoursesActivity">
+    tools:context="com.dmt.faizanmaaz.csguide.WEBMain2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
             android:elevation="10dp"
             android:padding="2dp"
@@ -53,6 +53,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="html"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -92,6 +93,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="Css"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -124,6 +126,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="javascript"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -164,6 +167,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="interactivity"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -205,6 +209,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="Jqeury"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -236,6 +241,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="php"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 

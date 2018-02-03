@@ -38,7 +38,17 @@ public class ContentReader extends AppCompatActivity {
                inputStream  = getResources().openRawResource(R.raw.mad);
                break;
             case "web":
-                inputStream = getResources().openRawResource(R.raw.mad);
+                inputStream = getResources().openRawResource(R.raw.web);
+                 break;
+            case "computerprogramming":
+                inputStream = getResources().openRawResource(R.raw.computerprogramming);
+                break;
+            case"csharp":
+                inputStream = getResources().openRawResource(R.raw.csharp);
+                break;
+            case"dsa":
+                inputStream = getResources().openRawResource(R.raw.dsa);
+                break;
         }
 
         CSVcontentReader csv = new CSVcontentReader(inputStream);

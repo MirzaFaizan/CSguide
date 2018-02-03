@@ -886,8 +886,12 @@ int layout support_simple_spinner_dropdown_item 0x7f090038
 int layout tooltip 0x7f090039
 int mipmap ic_launcher 0x7f0a0000
 int mipmap ic_launcher_round 0x7f0a0001
-int raw mad 0x7f0b0000
-int raw quest 0x7f0b0001
+int raw computerprogramming 0x7f0b0000
+int raw csharp 0x7f0b0001
+int raw dsa 0x7f0b0002
+int raw mad 0x7f0b0003
+int raw quest 0x7f0b0004
+int raw web 0x7f0b0005
 int string abc_action_bar_home_description 0x7f0c0000
 int string abc_action_bar_home_description_format 0x7f0c0001
 int string abc_action_bar_home_subtitle_description_format 0x7f0c0002

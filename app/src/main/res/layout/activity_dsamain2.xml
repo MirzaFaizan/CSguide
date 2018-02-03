@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
-    tools:context="com.dmt.faizanmaaz.csguide.CoursesActivity">
+    tools:context="com.dmt.faizanmaaz.csguide.DSAMain2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,6 +52,7 @@
                 <android.support.v7.widget.CardView
                     android:layout_width="160dp"
                     android:layout_height="190dp"
+                    android:onClick="dsaintro"
                     android:layout_margin="10dp"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
@@ -92,6 +93,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="dsalink"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -124,6 +126,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="dsacircular"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
