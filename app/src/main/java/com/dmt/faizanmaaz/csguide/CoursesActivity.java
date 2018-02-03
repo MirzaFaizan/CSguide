@@ -40,4 +40,12 @@ public class CoursesActivity extends AppCompatActivity {
 
     public void madintro(View view) {
     }
+
+    public void shareApplication(View view) {
+        Intent shareIntent = new Intent();
+        shareIntent.setAction(Intent.ACTION_SEND);
+        shareIntent.putExtra(Intent.EXTRA_TEXT,"Hey! This app taught me many concepts about computer science");
+        shareIntent.setType("text/plain");
+        startActivity(Intent.createChooser(shareIntent,"Share this with friends"));
+    }
 }
