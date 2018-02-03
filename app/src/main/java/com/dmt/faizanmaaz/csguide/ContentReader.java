@@ -145,8 +145,6 @@ public class ContentReader extends AppCompatActivity {
     public void openQuiz(String quizid){
         Intent intent = new Intent(this,QuizReader.class);
         Bundle binner = new Bundle();
-        Toast toast= Toast.makeText(getApplicationContext(),quizid,Toast.LENGTH_LONG);
-        toast.show();
         binner.putString("quizid",quizid);
         intent.putExtras(binner);
         startActivity(intent);
