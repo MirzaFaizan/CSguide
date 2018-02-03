@@ -20,7 +20,6 @@ public class MADMain2Activity extends AppCompatActivity {
         Bundle b = new Bundle();
         b.putString("Contentid", "c1");
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",false);
         intent.putExtras(b);
         startActivity(intent);
     }
@@ -30,7 +29,6 @@ public class MADMain2Activity extends AppCompatActivity {
         Bundle b = new Bundle();
         b.putString("Contentid", "c2");
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",false);
         intent.putExtras(b);
         startActivity(intent);
     }
@@ -40,8 +38,7 @@ public class MADMain2Activity extends AppCompatActivity {
         Bundle b = new Bundle();
         b.putString("Contentid", "c3");
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",true);
-        b.putString("quizId","cp1");
+        b.putString("quizI=id","cp1");
         intent.putExtras(b);
         startActivity(intent);
     }
@@ -51,7 +48,6 @@ public class MADMain2Activity extends AppCompatActivity {
         Bundle b = new Bundle();
         b.putString("Contentid", "c4");
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",false);
         intent.putExtras(b);
         startActivity(intent);
     }
@@ -60,8 +56,8 @@ public class MADMain2Activity extends AppCompatActivity {
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
         b.putString("Contentid", "c5");
+
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",false);
         intent.putExtras(b);
         startActivity(intent);
     }
@@ -71,8 +67,7 @@ public class MADMain2Activity extends AppCompatActivity {
         Bundle b = new Bundle();
         b.putString("Contentid", "c6");
         b.putString("FileName","mad");
-        b.putBoolean("nextisquiz",true);
-        b.putString("quizId","cp2");
+        b.putString("quizid","cp2");
         intent.putExtras(b);
         startActivity(intent);
     }

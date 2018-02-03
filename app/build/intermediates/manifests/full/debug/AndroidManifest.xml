@@ -32,6 +32,8 @@
         <activity android:name="com.dmt.faizanmaaz.csguide.DSAMain2Activity" />
         <activity android:name="com.dmt.faizanmaaz.csguide.OOPMain2Activity" />
         <activity android:name="com.dmt.faizanmaaz.csguide.ContentReader" />
+        <activity android:name="com.dmt.faizanmaaz.csguide.QuizReader" />
+        <activity android:name="com.dmt.faizanmaaz.csguide.QuizResult" />
 
         <meta-data
             android:name="android.support.VERSION"

@@ -23,7 +23,9 @@
         <activity android:name=".NetworkingMain2Activity" />
         <activity android:name=".DSAMain2Activity" />
         <activity android:name=".OOPMain2Activity" />
-        <activity android:name=".ContentReader"></activity>
+        <activity android:name=".ContentReader" />
+        <activity android:name=".QuizReader" />
+        <activity android:name=".QuizResult"></activity>
     </application>
 
 </manifest>

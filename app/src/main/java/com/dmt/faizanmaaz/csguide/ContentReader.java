@@ -65,7 +65,8 @@ public class ContentReader extends AppCompatActivity {
                             //shows true or false for next
                             String version1 = contentid;
                             if(Integer.parseInt(version1.substring(1,version1.length()))==3||Integer.parseInt(version1.substring(1,version1.length()))==6){
-                                TakeQuiz();
+                                if(Integer.parseInt(version1.substring(1,version1.length()))==3)TakeQuiz(bouter.getString("FileName")+"Q"+1);
+                                else TakeQuiz(bouter.getString("FileName")+"Q"+2);
                             }else {
                                 String version = contentid;
                                 String newVersion = "c" + (Integer.parseInt(version.substring(1, version.length())) + 1);
@@ -120,16 +121,14 @@ public class ContentReader extends AppCompatActivity {
         txtContent.setText(str);
     }
 
-    public void TakeQuiz(){
+    public void TakeQuiz(final String quizid){
         AlertDialog.Builder alertBox = new AlertDialog.Builder(ContentReader.this);
         alertBox.setTitle("Do you want to take the quiz?")
                 .setCancelable(false)
                 .setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Toast toast= Toast.makeText(getApplicationContext(),"Yes i want to take Quiz",Toast.LENGTH_LONG);
-                        toast.setMargin(50,50);
-                        toast.show();
+                        openQuiz(quizid);
                     }
                 })
                 .setNegativeButton("No Take me back to main Screen", new DialogInterface.OnClickListener() {
@@ -144,7 +143,14 @@ public class ContentReader extends AppCompatActivity {
     }
 
     public void openQuiz(String quizid){
-
+        Intent intent = new Intent(this,QuizReader.class);
+        Bundle binner = new Bundle();
+        Toast toast= Toast.makeText(getApplicationContext(),quizid,Toast.LENGTH_LONG);
+        toast.show();
+        binner.putString("quizid",quizid);
+        intent.putExtras(binner);
+        startActivity(intent);
+        finish();
     }
 
 }

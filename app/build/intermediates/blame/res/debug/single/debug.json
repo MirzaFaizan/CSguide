@@ -1360,6 +1360,10 @@
         "source": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quiz_result.xml.flat",
+        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\layout\\activity_quiz_result.xml"
+    },
+    {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Faizan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\894c001a9efa899f538645e25e8be714\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -3312,6 +3316,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quiz_reader.xml.flat",
+        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\layout\\activity_quiz_reader.xml"
+    },
+    {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\d8646079c8479b1330a1ece2ef6584f8\\res\\layout\\abc_list_menu_item_layout.xml"
     },
@@ -5150,6 +5158,10 @@
     {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Faizan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\894c001a9efa899f538645e25e8be714\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\raw_quest.csv.flat",
+        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\raw\\quest.csv"
     },
     {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",

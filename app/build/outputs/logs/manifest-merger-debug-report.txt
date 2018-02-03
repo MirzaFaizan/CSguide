@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\913dc00d1ee1f4fc12fecb1ad0223da0\AndroidManifest.xml:2:1-11:12
@@ -16,25 +16,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:5-27:19
+ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:25:5-29:19
@@ -114,9 +114,17 @@ ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:25:19-51
 activity#com.dmt.faizanmaaz.csguide.ContentReader
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:9-60
+ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:9-51
 	android:name
 		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:19-48
+activity#com.dmt.faizanmaaz.csguide.QuizReader
+ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:9-48
+	android:name
+		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:19-45
+activity#com.dmt.faizanmaaz.csguide.QuizResult
+ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:9-57
+	android:name
+		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:19-45
 uses-sdk
 INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
