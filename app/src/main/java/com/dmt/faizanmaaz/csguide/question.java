@@ -10,6 +10,17 @@ public class question {
     private String OPTA;
     private String OPTB;
     private String OPTC;
+    private String OPTD;
+
+    public String getExplanation() {
+        return explanation;
+    }
+
+    public void setExplanation(String explanation) {
+        this.explanation = explanation;
+    }
+
+    private String explanation;
 
     public String getOPTD() {
         return OPTD;
@@ -19,7 +30,7 @@ public class question {
         this.OPTD = OPTD;
     }
 
-    private String OPTD;
+
 
     private String ANSWER;
     public question()

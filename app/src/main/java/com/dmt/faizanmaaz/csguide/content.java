@@ -9,6 +9,16 @@ public class content {
     private String contentID;
     private String actualContent;
 
+    public String getHeading() {
+        return heading;
+    }
+
+    public void setHeading(String heading) {
+        this.heading = heading;
+    }
+
+    private String heading;
+
     public content(){
         contentID="";
         actualContent="";

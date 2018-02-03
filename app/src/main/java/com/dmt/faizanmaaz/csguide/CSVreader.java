@@ -33,6 +33,7 @@ public class CSVreader {
                 q.setOPTC(tokens[4]);
                 q.setOPTD(tokens[5]);
                 q.setANSWER(tokens[6]);
+                q.setExplanation(tokens[7]);
                 resultList.add(q);
 
 

@@ -18,7 +18,7 @@ public class ContentReader extends AppCompatActivity {
     List<content> quesList;
     int qid=0;
     content currentC;
-    TextView txtContent;
+    TextView txtContent,heading;
     Button butNext, butPrev;
     String contentid;
     String Filename;
@@ -29,6 +29,8 @@ public class ContentReader extends AppCompatActivity {
         final Bundle bouter = getIntent().getExtras();
         contentid=bouter.getString("Contentid");
         Filename=bouter.getString("FileName");
+        heading = (TextView)findViewById(R.id.heading);
+
         //getting data from csv file
         InputStream inputStream=null;
         switch (Filename){
@@ -43,6 +45,7 @@ public class ContentReader extends AppCompatActivity {
         quesList = csv.read(contentid);
         currentC=quesList.get(qid);
         txtContent=(TextView)findViewById(R.id.textcontent);
+
         setReadContentView();
 
         butNext = (Button)findViewById(R.id.nextbtn);
@@ -113,7 +116,8 @@ public class ContentReader extends AppCompatActivity {
 
     public void setReadContentView(){
         String str="";
-
+        TextView tv = (TextView)findViewById(R.id.heading);
+        heading.setText(currentC.getHeading());
         String[] lines = currentC.getActualContent().split("%n");
         for (String line : lines) {
             str+=line+System.lineSeparator();
@@ -149,6 +153,7 @@ public class ContentReader extends AppCompatActivity {
         intent.putExtras(binner);
         startActivity(intent);
         finish();
+
     }
 
 }

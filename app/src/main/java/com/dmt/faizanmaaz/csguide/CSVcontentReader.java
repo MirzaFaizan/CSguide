@@ -28,7 +28,8 @@ public class CSVcontentReader {
                 String[] tokens = csvLine.split(",");
                 content c = new content();
                 c.setContentID(tokens[0]);
-                c.setActualContent(tokens[1]);
+                c.setHeading(tokens[1]);
+                c.setActualContent(tokens[2]);
                 resultList.add(c);
 
 

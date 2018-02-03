@@ -15,6 +15,7 @@
         >
         <TextView
             android:padding="2dp"
+            android:id="@+id/heading"
             android:textColor="@android:color/white"
             android:text="Read View"
             android:elevation="10dp"
