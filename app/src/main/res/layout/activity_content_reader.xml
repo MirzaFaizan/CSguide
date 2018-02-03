@@ -9,7 +9,7 @@
     <LinearLayout
         android:background="@drawable/shadow"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="35dp"
         android:orientation="vertical"
         android:elevation="5dp"
         >
@@ -19,12 +19,20 @@
             android:textColor="@android:color/white"
             android:text="Read View"
             android:elevation="10dp"
-            android:textStyle="bold"
             android:textSize="23dp"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,13 +46,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <TextView
+                    android:fontFamily="sans-serif-condensed"
                     android:id="@+id/textcontent"
                     android:layout_centerInParent="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:padding="15dp"
-                    android:textColor="@color/Black"
+                    android:background="@drawable/background"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:textColor="@android:color/white"
                     android:text="Select From the following Modules to read"
                     />
             </RelativeLayout>
@@ -60,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
-                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:background="?android:selectableItemBackgroundBorderless"
                     android:id="@+id/prevbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -72,7 +83,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <Button
-                    android:foreground="?android:selectableItemBackgroundBorderless"
+                    android:background="?android:selectableItemBackgroundBorderless"
                     android:id="@+id/nextbtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

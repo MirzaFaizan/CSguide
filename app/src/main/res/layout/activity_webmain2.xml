@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="35dp"
         android:background="@drawable/shadow"
         android:elevation="5dp"
         android:orientation="vertical">
@@ -23,8 +23,7 @@
             android:padding="2dp"
             android:text=" WEB Course Content"
             android:textColor="@android:color/white"
-            android:textSize="23dp"
-            android:textStyle="bold" />
+            android:textSize="23dp" />
     </LinearLayout>
 
     <ScrollView

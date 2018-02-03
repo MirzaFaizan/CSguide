@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,6 +23,7 @@ public class ContentReader extends AppCompatActivity {
     Button butNext, butPrev;
     String contentid;
     String Filename;
+    ProgressBar progressBar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +62,7 @@ public class ContentReader extends AppCompatActivity {
 
         butNext = (Button)findViewById(R.id.nextbtn);
         butPrev = (Button)findViewById(R.id.prevbtn);
+        progressBar = (ProgressBar)findViewById(R.id.progressbar);
         //buttons
         butPrev.setVisibility(View.INVISIBLE);
 
@@ -68,7 +71,10 @@ public class ContentReader extends AppCompatActivity {
         butNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                double sum,ls;
+                ls=quesList.size();
+                sum = (qid/ls)*100;
+                progressBar.setProgress((int)sum);
                 if(qid<quesList.size()){
                     qid++;
                     try {
