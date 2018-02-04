@@ -19,8 +19,14 @@ public final class R {
     public static final int abc_slide_in_top=0x7f010007;
     public static final int abc_slide_out_bottom=0x7f010008;
     public static final int abc_slide_out_top=0x7f010009;
-    public static final int tooltip_enter=0x7f01000a;
-    public static final int tooltip_exit=0x7f01000b;
+    public static final int blink=0x7f01000a;
+    public static final int clockwise=0x7f01000b;
+    public static final int fade=0x7f01000c;
+    public static final int move=0x7f01000d;
+    public static final int myanimation=0x7f01000e;
+    public static final int slide=0x7f01000f;
+    public static final int tooltip_enter=0x7f010010;
+    public static final int tooltip_exit=0x7f010011;
   }
   public static final class attr {
     /**

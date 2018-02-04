@@ -18,8 +18,8 @@ public final class R {
         public static final int abc_slide_in_top = 0x7f010007;
         public static final int abc_slide_out_bottom = 0x7f010008;
         public static final int abc_slide_out_top = 0x7f010009;
-        public static final int tooltip_enter = 0x7f01000a;
-        public static final int tooltip_exit = 0x7f01000b;
+        public static final int tooltip_enter = 0x7f010010;
+        public static final int tooltip_exit = 0x7f010011;
     }
     public static final class attr {
         public static final int actionBarDivider = 0x7f020000;

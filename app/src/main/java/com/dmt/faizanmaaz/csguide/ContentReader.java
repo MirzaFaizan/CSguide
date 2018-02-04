@@ -7,7 +7,10 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -134,6 +137,9 @@ public class ContentReader extends AppCompatActivity {
         String str="";
         TextView tv = (TextView)findViewById(R.id.heading);
         heading.setText(currentC.getHeading());
+        Animation animation1 =
+                AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade);
+        txtContent.startAnimation(animation1);
         String[] lines = currentC.getActualContent().split("%n");
         for (String line : lines) {
             str+=line+System.lineSeparator();

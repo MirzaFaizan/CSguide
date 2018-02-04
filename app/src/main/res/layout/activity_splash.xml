@@ -32,10 +32,12 @@ tools:context="com.dmt.faizanmaaz.csguide.splash"
             <ProgressBar
                 android:layout_width="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/colorPrimary"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
                 android:fontFamily="sans-serif-condensed"
                 android:text="Computer Science Guide"/>
         </LinearLayout>

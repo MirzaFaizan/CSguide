@@ -8,8 +8,14 @@ int anim abc_slide_in_bottom 0x7f010006
 int anim abc_slide_in_top 0x7f010007
 int anim abc_slide_out_bottom 0x7f010008
 int anim abc_slide_out_top 0x7f010009
-int anim tooltip_enter 0x7f01000a
-int anim tooltip_exit 0x7f01000b
+int anim blink 0x7f01000a
+int anim clockwise 0x7f01000b
+int anim fade 0x7f01000c
+int anim move 0x7f01000d
+int anim myanimation 0x7f01000e
+int anim slide 0x7f01000f
+int anim tooltip_enter 0x7f010010
+int anim tooltip_exit 0x7f010011
 int attr actionBarDivider 0x7f020000
 int attr actionBarItemBackground 0x7f020001
 int attr actionBarPopupTheme 0x7f020002
