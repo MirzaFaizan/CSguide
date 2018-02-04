@@ -87,11 +87,11 @@ public class QuizReader extends AppCompatActivity {
 
     private void setQuestionView()
     {
-        txtQuestion.setText(currentQ.getQUESTION());
-        rda.setText(currentQ.getOPTA());
-        rdb.setText(currentQ.getOPTB());
-        rdc.setText(currentQ.getOPTC());
-        rdd.setText(currentQ.getOPTD());
+        txtQuestion.setText(extractText(currentQ.getQUESTION()));
+        rda.setText(extractText(currentQ.getOPTA()));
+        rdb.setText(extractText(currentQ.getOPTB()));
+        rdc.setText(extractText(currentQ.getOPTC()));
+        rdd.setText(extractText(currentQ.getOPTD()));
         qid++;
     }
 
@@ -186,6 +186,36 @@ public class QuizReader extends AppCompatActivity {
         outtoRight.setDuration(500);
         outtoRight.setInterpolator(new AccelerateInterpolator());
         return outtoRight;
+    }
+
+    public String extractText(String oldText){
+        String str="",strc="",stri="";
+        String[] lines = oldText.split("%n");
+
+        for (int i = 0;i<lines.length;i++){
+            if(i<lines.length-1){
+                str+=lines[i]+System.lineSeparator();
+            }
+            else
+                str+=lines[i];
+        }
+        String[] linec = str.split("%c");
+        for (int i = 0;i<linec.length;i++){
+            if(i<linec.length-1){
+                strc+=linec[i]+',';
+            }
+            else
+                strc+=linec[i];
+        }
+        String[] linei = strc.split("%i");
+        for (int i = 0;i<linei.length;i++){
+            if(i<linei.length-1){
+                stri+=linei[i]+'"';
+            }
+            else
+                stri+=linei[i];
+        }
+        return stri;
     }
 
 

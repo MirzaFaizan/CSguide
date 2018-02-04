@@ -1,4 +1,4 @@
-#Sun Feb 04 13:07:13 PKT 2018
-base.0=C\:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+#Sun Feb 04 15:00:24 PKT 2018
+base.0=C\:\\Users\\DELL\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 path.0=classes.dex
 renamed.0=classes.dex

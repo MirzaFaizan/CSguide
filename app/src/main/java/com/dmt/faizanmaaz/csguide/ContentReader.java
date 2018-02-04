@@ -135,16 +135,39 @@ public class ContentReader extends AppCompatActivity {
 
     public void setReadContentView(){
         String str="";
-        TextView tv = (TextView)findViewById(R.id.heading);
+        String strc="";
+        String stri="";
         heading.setText(currentC.getHeading());
         Animation animation1 =
                 AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade);
         txtContent.startAnimation(animation1);
         String[] lines = currentC.getActualContent().split("%n");
-        for (String line : lines) {
-            str+=line+System.lineSeparator();
+
+        for (int i = 0;i<lines.length;i++){
+            if(i<lines.length-1){
+                str+=lines[i]+System.lineSeparator();
+            }
+            else
+                str+=lines[i];
         }
-        txtContent.setText(str);
+        String[] linec = str.split("%c");
+        for (int i = 0;i<linec.length;i++){
+            if(i<linec.length-1){
+                strc+=linec[i]+',';
+            }
+            else
+                strc+=linec[i];
+        }
+        String[] linei = strc.split("%i");
+        for (int i = 0;i<linei.length;i++){
+            if(i<linei.length-1){
+                stri+=linei[i]+'"';
+            }
+            else
+                stri+=linei[i];
+        }
+        txtContent.setText(stri);
+
     }
 
     public void TakeQuiz(final String quizid){

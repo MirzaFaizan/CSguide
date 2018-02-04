@@ -1,5 +1,10 @@
-madQ1,is the world round?,yes,no,maybe,4th,maybe,explaination
-madQ1,is the world round?,yes,no,maybe,4th,maybe,cause you suck nigga
-computerprogrammingQ1,hello world?,yes,no,hate you,4th,no,explaination
-csharpQ1,why am i doing this?,idk,idc,ilp,4th,ilp,explaination
-webQ1,okay lastone?,no,yes,maybe,4th,yes,explaination
+csharpQ1,Which of%c the following is used to define the member of a class externally?,:,::,#,none%c of the above,::,Explanation:%nBy definition.
+csharpQ1,The operator used to access member function of a class?,:,::,.,#,.,Explanation:%nobjectname.function name(actual arguments);
+csharpQ1,Which of following statements about objects in C# is correct?,Everything you use in C# is an object including Windows Forms and controls,Objects have methods and events that allow them to perform actions,All objects created from a class will occupy equal number of bytes in memory,All of the mentioned,All of the mentioned,Explanation:%nBy definition.
+csharpQ1,A mechanism that binds together code and data in manipulates and keeps both safe from outside interference and misuse.In short it isolates a particular code and data from all other codes and data. A well-defined interface controls the access to that particular code and data.,Abstraction,Polymorphism,Inheritance,Encapsulation,Encapsulation,Explanation:%n By definition.
+csharpQ1,Correct way of declaration of object of the following class is ?,name n = new name();,n = name();,name n = name();,n = new name();,name n = new name();,Explanation: None.
+csharpQ1,The data members of a class by default are ?,protected public,private public,private,public,private,Explanation:%nNone.
+csharpQ1,Which of the following keyword is used to change data and behavior of a base class by replacing a member of the base class with a new derived member?,Overloads,Overrides,new,base,new,Explanation:%nNone.
+csharpQ1,Correct way to overload +operator?,public sample operator + ( sample a sample b),public abstract operator + (sample a sample b),public static sample operator + (sample a sample b),All of the mentioned,All of the mentioned,Explanation:%nNone.
+csharpQ1,Which of the following statements is correct?,Each derived class does not have its own version of a virtual method,If a derived class does not have its own version of virtual method then one in base class is used,By default methods are virtual,All of the mentioned,By default methods are virtual,Explanation:%nNone.
+csharpQ1,Selecting appropriate method out of number of overloaded methods by matching arguments in terms of number type and order and binding that selected method to object at compile time is called?,Static binding,Static Linking,Compile time polymorphism,All of the mentioned,All of the mentioned,Explanation:%nNone.
