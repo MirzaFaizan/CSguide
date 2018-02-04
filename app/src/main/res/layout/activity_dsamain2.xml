@@ -92,7 +92,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
-                    android:onClick="dsalink"
+                    android:onClick="dsastack"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -114,7 +114,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="linked list"
+                            android:text="Stacks and Queues"
                             android:textSize="15sp"
                             android:textStyle="bold" />
 
@@ -125,7 +125,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
-                    android:onClick="dsacircular"
+                    android:onClick="dsalink"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -147,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Cirular Linked list"
+                            android:text=" Linked list"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -166,6 +166,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="dsacircular"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -187,7 +188,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Stacks and Queues"
+                            android:text="Cirular Linked list"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -207,6 +208,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="dsatree"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -238,6 +240,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="dsaheap"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 

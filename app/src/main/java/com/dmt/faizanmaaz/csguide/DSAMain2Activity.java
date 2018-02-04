@@ -21,7 +21,7 @@ public class DSAMain2Activity extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
-    public void dsalink(View view) {
+    public void dsastack(View view) {
 
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
@@ -30,7 +30,7 @@ public class DSAMain2Activity extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
-    public void dsacircular(View view) {
+    public void dsalink(View view) {
 
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
@@ -40,31 +40,31 @@ public class DSAMain2Activity extends AppCompatActivity {
         intent.putExtras(b);
         startActivity(intent);
     }
-    public void csharpException(View view) {
+    public void dsacircular(View view) {
 
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
         b.putString("Contentid", "c4");
-        b.putString("FileName","csharp");
+        b.putString("FileName","dsa");
         intent.putExtras(b);
         startActivity(intent);
     }
-    public void csharpdelegates(View view) {
+    public void dsatree(View view) {
 
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
         b.putString("Contentid", "c5");
-        b.putString("FileName","csharp");
+        b.putString("FileName","dsa");
         intent.putExtras(b);
         startActivity(intent);
     }
-    public void csharpmultithreading(View view) {
+    public void dsaheap(View view) {
 
         Intent intent = new Intent(this,ContentReader.class);
         Bundle b = new Bundle();
         b.putString("Contentid", "c6");
-        b.putString("FileName","csharp");
-        b.putString("quizid","csharpQ2");
+        b.putString("FileName","dsa");
+        b.putString("quizid","dsaQ2");
         intent.putExtras(b);
         startActivity(intent);
     }

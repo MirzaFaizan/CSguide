@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundcolor"
     android:orientation="vertical"
-    tools:context="com.dmt.faizanmaaz.csguide.CoursesActivity">
+    tools:context="com.dmt.faizanmaaz.csguide.OOPMain2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,6 +52,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="oopintro"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -91,6 +92,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="oopclasses"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -124,7 +126,8 @@
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
                     android:clickable="true"
-                    android:foreground="?android:attr/selectableItemBackground">
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="oopAssociation">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -144,7 +147,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:gravity="center"
-                            android:text="Association"
+                            android:text="Association and Composition"
                             android:textSize="15sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -163,6 +166,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="oopinheritance"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -204,6 +208,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="ooppolymorphism"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 
@@ -235,6 +240,7 @@
                     android:layout_width="160dp"
                     android:layout_height="190dp"
                     android:layout_margin="10dp"
+                    android:onClick="oopoperator"
                     android:clickable="true"
                     android:foreground="?android:attr/selectableItemBackground">
 

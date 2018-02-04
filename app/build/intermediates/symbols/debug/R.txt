@@ -856,8 +856,9 @@ int raw computerprogramming 0x7f0b0000
 int raw csharp 0x7f0b0001
 int raw dsa 0x7f0b0002
 int raw mad 0x7f0b0003
-int raw quest 0x7f0b0004
-int raw web 0x7f0b0005
+int raw oop 0x7f0b0004
+int raw quest 0x7f0b0005
+int raw web 0x7f0b0006
 int string abc_action_bar_home_description 0x7f0c0000
 int string abc_action_bar_home_description_format 0x7f0c0001
 int string abc_action_bar_home_subtitle_description_format 0x7f0c0002
