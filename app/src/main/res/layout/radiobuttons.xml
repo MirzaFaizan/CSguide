@@ -3,6 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RadioGroup
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroundwhite"
+        android:elevation="5dp"
         android:id="@+id/radioGroup1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

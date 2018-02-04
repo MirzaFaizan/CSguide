@@ -8,7 +8,11 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroundwhite"
+        android:padding="10dp"
+        android:elevation="10dp">
         <ImageView
             android:layout_width="100dp"
             android:id="@+id/imageview"
