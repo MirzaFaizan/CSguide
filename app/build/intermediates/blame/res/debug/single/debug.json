@@ -612,10 +612,6 @@
         "source": "C:\\Users\\Faizan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\894c001a9efa899f538645e25e8be714\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\anim_clockwise.xml.flat",
-        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\anim\\clockwise.xml"
-    },
-    {
         "merged": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Adnan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ad9a6a45c17a86a1cf1bdfe804df2a1\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
@@ -678,10 +674,6 @@
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chrome_reader_mode_black_24dp.xml.flat",
         "source": "D:\\androidprojects\\CSguide\\app\\src\\main\\res\\drawable\\ic_chrome_reader_mode_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\anim_myanimation.xml.flat",
-        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\anim\\myanimation.xml"
     },
     {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_vector_test.xml.flat",
@@ -2364,10 +2356,6 @@
         "source": "C:\\Users\\Adnan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ad9a6a45c17a86a1cf1bdfe804df2a1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide.xml.flat",
-        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\anim\\slide.xml"
-    },
-    {
         "merged": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Adnan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\4ad9a6a45c17a86a1cf1bdfe804df2a1\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -3094,10 +3082,6 @@
     {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Faizan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\894c001a9efa899f538645e25e8be714\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\anim_move.xml.flat",
-        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\anim\\move.xml"
     },
     {
         "merged": "D:\\androidprojects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
@@ -4578,10 +4562,6 @@
     {
         "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\layout_tooltip.xml.flat",
         "source": "C:\\Users\\Faizan Ejaz\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\894c001a9efa899f538645e25e8be714\\res\\layout\\tooltip.xml"
-    },
-    {
-        "merged": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\anim_blink.xml.flat",
-        "source": "C:\\Users\\Faizan Ejaz\\AndroidStudioProjects\\CSguide\\app\\src\\main\\res\\anim\\blink.xml"
     },
     {
         "merged": "C:\\Users\\Adnan Ejaz\\AndroidStudioProjects\\CSguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",

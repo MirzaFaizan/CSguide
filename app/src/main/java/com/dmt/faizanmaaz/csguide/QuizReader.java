@@ -12,6 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -34,6 +35,7 @@ public class QuizReader extends AppCompatActivity {
     String quizid;
     boolean explained;
     ViewFlipper flipper;
+    ProgressBar progressBarQuiz;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,8 +44,6 @@ public class QuizReader extends AppCompatActivity {
         Bundle b = getIntent().getExtras();
         quizid=b.getString("quizid");
         //checking
-        Toast toast = Toast.makeText(this,"quiz id : "+quizid,Toast.LENGTH_SHORT);
-        toast.show();
 //        getting data from csv file
         InputStream inputStream = getResources().openRawResource(R.raw.quest);
         CSVreader csv = new CSVreader(inputStream);
@@ -57,11 +57,16 @@ public class QuizReader extends AppCompatActivity {
         rdd=(RadioButton)findViewById(R.id.radio3);
         butNext=(Button)findViewById(R.id.button1);
         flipper= (ViewFlipper)findViewById(R.id.flipper);
+        progressBarQuiz= (ProgressBar)findViewById(R.id.progressbarQuiz);
         setQuestionView();
         explained =false;
         butNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                double sum,ls;
+                ls=quesList.size();
+                sum = (qid/ls)*100;
+                progressBarQuiz.setProgress((int)sum);
                 RadioGroup grp=(RadioGroup)findViewById(R.id.radioGroup1);
                 RadioButton answer=(RadioButton)findViewById(grp.getCheckedRadioButtonId());
                 Log.d("your ans", currentQ.getANSWER()+" "+answer.getText());
@@ -117,13 +122,17 @@ public class QuizReader extends AppCompatActivity {
                 flipper.setOutAnimation(outToLeftAnimation());
                 flipper.showNext();
             }
+            explained=true;
         }
 
-        if(explained==true){
+        else if(explained==true){
             // when all questions end
             if(qid<quesList.size()){
                 currentQ=quesList.get(qid);
                 setQuestionView();
+                flipper.setInAnimation(inFromLeftAnimation());
+                flipper.setOutAnimation(outToRightAnimation());
+                flipper.showPrevious();
             }else{
                 Intent intent = new Intent(QuizReader.this, QuizResult.class);
                 Bundle b = new Bundle();
@@ -133,8 +142,9 @@ public class QuizReader extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
+            explained=false;
         }
-        explained=true;
+
     }
 
     //animations waly shashky
