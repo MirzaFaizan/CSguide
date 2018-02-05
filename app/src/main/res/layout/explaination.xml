@@ -39,6 +39,11 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-condensed"
                 android:text="ExPlaination here whagf"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="correct answer"
+                android:id="@+id/correctanswer"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

@@ -19,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
+import org.w3c.dom.Text;
+
 import java.io.InputStream;
 import java.util.List;
 
@@ -101,9 +103,11 @@ public class QuizReader extends AppCompatActivity {
                 TextView tv_wr = (TextView)findViewById(R.id.rightwrong);
                 tv_wr.setText("Wrong Answer");
                 TextView tv_explaination = (TextView)findViewById(R.id.explainpls);
-                tv_explaination.setText(currentQ.getExplanation());
+                tv_explaination.setText(extractText(currentQ.getExplanation()));
                 ImageView IV_wr= (ImageView)findViewById(R.id.imageview);
                 IV_wr.setImageResource(R.drawable.wrong);
+                TextView tv_correctans = (TextView)findViewById(R.id.correctanswer);
+                tv_correctans.setText("Answer is :"+currentQ.getANSWER());
                 flipper.setInAnimation(inFromRightAnimation());
                 flipper.setOutAnimation(outToLeftAnimation());
                 flipper.showNext();
@@ -118,6 +122,8 @@ public class QuizReader extends AppCompatActivity {
                 tv_explaination.setText(extractText(currentQ.getExplanation()));
                 ImageView IV_wr= (ImageView)findViewById(R.id.imageview);
                 IV_wr.setImageResource(R.drawable.right);
+                TextView tv_correctans = (TextView)findViewById(R.id.correctanswer);
+                tv_correctans.setText("Answer is :"+currentQ.getANSWER());
                 flipper.setInAnimation(inFromRightAnimation());
                 flipper.setOutAnimation(outToLeftAnimation());
                 flipper.showNext();
