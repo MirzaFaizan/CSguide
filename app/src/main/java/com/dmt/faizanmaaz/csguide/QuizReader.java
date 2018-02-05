@@ -74,7 +74,7 @@ public class QuizReader extends AppCompatActivity {
                         explainAnswer(true);
 
                 }
-                if(!currentQ.getANSWER().equals(answer.getText())){
+                else if(!currentQ.getANSWER().equals(answer.getText())){
 
                         explainAnswer(false);
 
