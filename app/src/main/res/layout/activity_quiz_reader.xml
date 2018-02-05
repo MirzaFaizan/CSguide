@@ -40,6 +40,9 @@
         android:layout_height="wrap_content"
         android:layout_weight="3"
         android:layout_margin="10dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <TextView
             android:textColor="@color/cardview_dark_background"
             android:padding="20dp"
@@ -48,8 +51,8 @@
             android:layout_height="wrap_content"
             android:text="Large Text"
             android:fontFamily="sans-serif-condensed"
-            android:layout_centerInParent="true"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+        </ScrollView>
     </RelativeLayout>
 
     <RelativeLayout
