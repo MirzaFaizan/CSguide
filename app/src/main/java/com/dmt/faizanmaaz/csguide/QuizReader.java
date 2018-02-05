@@ -115,7 +115,7 @@ public class QuizReader extends AppCompatActivity {
                 TextView tv_wr = (TextView)findViewById(R.id.rightwrong);
                 tv_wr.setText("Correct Answer");
                 TextView tv_explaination = (TextView)findViewById(R.id.explainpls);
-                tv_explaination.setText(currentQ.getExplanation());
+                tv_explaination.setText(extractText(currentQ.getExplanation()));
                 ImageView IV_wr= (ImageView)findViewById(R.id.imageview);
                 IV_wr.setImageResource(R.drawable.right);
                 flipper.setInAnimation(inFromRightAnimation());
