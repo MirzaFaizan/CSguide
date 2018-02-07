@@ -10,15 +10,19 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 public class CoursesActivity extends AppCompatActivity {
-AdView madview;
+AdView madview1,madview2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.courses);
         MobileAds.initialize(this,"ca-app-pub-3940256099942544~3347511713");
-        madview=(AdView)findViewById(R.id.bannerMain);
+        madview1=(AdView)findViewById(R.id.bannerMain);
         AdRequest adRequest = new AdRequest.Builder().build();
-        madview.loadAd(adRequest);
+        madview1.loadAd(adRequest);
+        MobileAds.initialize(this,"ca-app-pub-3940256099942544~3347511713");
+        madview1=(AdView)findViewById(R.id.bannerMain1);
+        AdRequest adRequest1 = new AdRequest.Builder().build();
+        madview1.loadAd(adRequest1);
     }
 
     public void computerProgramming_click(View view) {

@@ -1,258 +1,258 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\3a2e33537f0e28f60692421e7e7524d8\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\625666a93f298071f1a553cc8ec8b1bf\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\44aff1c68cfb22ee497e8615fd059376\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\5682ce188d81a490052d6f67362ce448\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\203fd2e25848a1d48d3dd9d82a20a2b8\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\59403992fcaf665b855f76ce94b83e4f\AndroidManifest.xml:2:1-6:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\d556323675d33f4aed60c8296b025f03\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\01d8a94cf2c63f6006d238298cf28d06\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\866e11516683ff3d737a06b323204257\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3be7b6aa38275c4a374ca9c6004a632a\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f537b31cc6a26905c7e3af56da691b45\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\73845a5537b13deb006c67771561dd5c\AndroidManifest.xml:2:1-6:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:3:5-41
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:4:5-83
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:23:5-67
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:4:5-83
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:5-95
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:24:5-79
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:5-95
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:5:22-76
 application
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:6:5-30:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\625666a93f298071f1a553cc8ec8b1bf\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\625666a93f298071f1a553cc8ec8b1bf\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:25:5-29:19
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\44aff1c68cfb22ee497e8615fd059376\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\44aff1c68cfb22ee497e8615fd059376\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\5682ce188d81a490052d6f67362ce448\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\5682ce188d81a490052d6f67362ce448\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\203fd2e25848a1d48d3dd9d82a20a2b8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\203fd2e25848a1d48d3dd9d82a20a2b8\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\59403992fcaf665b855f76ce94b83e4f\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\59403992fcaf665b855f76ce94b83e4f\AndroidManifest.xml:5:5-20
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:24:5-28:19
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:6:5-30:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\01d8a94cf2c63f6006d238298cf28d06\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\01d8a94cf2c63f6006d238298cf28d06\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\866e11516683ff3d737a06b323204257\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\866e11516683ff3d737a06b323204257\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3be7b6aa38275c4a374ca9c6004a632a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3be7b6aa38275c4a374ca9c6004a632a\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f537b31cc6a26905c7e3af56da691b45\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f537b31cc6a26905c7e3af56da691b45\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\73845a5537b13deb006c67771561dd5c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\73845a5537b13deb006c67771561dd5c\AndroidManifest.xml:5:5-20
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:12:9-40
 activity#com.dmt.faizanmaaz.csguide.splash
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:13:19-41
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:13:19-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.dmt.faizanmaaz.csguide.CoursesActivity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:20:19-50
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:20:19-50
 activity#com.dmt.faizanmaaz.csguide.MainActivity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:21:9-50
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:21:9-50
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:21:19-47
 activity#com.dmt.faizanmaaz.csguide.MADMain2Activity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:22:19-51
 activity#com.dmt.faizanmaaz.csguide.WEBMain2Activity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:23:9-54
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:23:9-54
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:23:19-51
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:23:19-51
 activity#com.dmt.faizanmaaz.csguide.NetworkingMain2Activity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:24:9-61
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:24:9-61
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:24:19-58
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:24:19-58
 activity#com.dmt.faizanmaaz.csguide.DSAMain2Activity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:25:9-54
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:25:9-54
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:25:19-51
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:25:19-51
 activity#com.dmt.faizanmaaz.csguide.OOPMain2Activity
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:9-54
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:9-54
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:26:19-51
 activity#com.dmt.faizanmaaz.csguide.ContentReader
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:9-51
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:19-48
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:27:19-48
 activity#com.dmt.faizanmaaz.csguide.QuizReader
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:9-48
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:9-48
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:19-45
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:28:19-45
 activity#com.dmt.faizanmaaz.csguide.QuizResult
-ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:29:9-57
+ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:29:9-57
 	android:name
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:29:19-45
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml:29:19-45
 uses-sdk
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:21:5-23:78
-MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\3a2e33537f0e28f60692421e7e7524d8\AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\3a2e33537f0e28f60692421e7e7524d8\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\625666a93f298071f1a553cc8ec8b1bf\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\625666a93f298071f1a553cc8ec8b1bf\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:21:5-23:58
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\44aff1c68cfb22ee497e8615fd059376\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\44aff1c68cfb22ee497e8615fd059376\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\5682ce188d81a490052d6f67362ce448\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\5682ce188d81a490052d6f67362ce448\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\203fd2e25848a1d48d3dd9d82a20a2b8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\203fd2e25848a1d48d3dd9d82a20a2b8\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\59403992fcaf665b855f76ce94b83e4f\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\59403992fcaf665b855f76ce94b83e4f\AndroidManifest.xml:4:5-43
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\d556323675d33f4aed60c8296b025f03\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.8.0.aar\d556323675d33f4aed60c8296b025f03\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\01d8a94cf2c63f6006d238298cf28d06\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.8.0.aar\01d8a94cf2c63f6006d238298cf28d06\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\866e11516683ff3d737a06b323204257\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-license-11.8.0.aar\866e11516683ff3d737a06b323204257\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3be7b6aa38275c4a374ca9c6004a632a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-license-11.8.0.aar\3be7b6aa38275c4a374ca9c6004a632a\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f537b31cc6a26905c7e3af56da691b45\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f537b31cc6a26905c7e3af56da691b45\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\73845a5537b13deb006c67771561dd5c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-gass-license-11.8.0.aar\73845a5537b13deb006c67771561dd5c\AndroidManifest.xml:4:5-43
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Faizan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Adnan Ejaz\AndroidStudioProjects\CSguide\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\894c001a9efa899f538645e25e8be714\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09fd94b03905f77b68dc5462d5c2b66e\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\9b2d9f8df3e1d151d6f4cf8c5aefbca7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\d30d644c7505efaa230e430054e11551\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\87f44cd01e60b0a5f7463ea2c192b632\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\1fed9169bcdec1b3fafa4d3391fe3678\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\3d84df5e6afe2d49c2570aea9dc51375\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\1b258d3747cbd1b292c3087c9ab0c66c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\373bcfa9444e7238f64a0733c9921960\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\4ad9a6a45c17a86a1cf1bdfe804df2a1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\8ffe0e0f660e9ed3ff76bdf5ca5857a2\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\074145333ac920e424a34f1f3fbd056f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\c442a2a7513db3455d10ed26597bdcda\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f56728da62bb09f8c3a85c59b4daa1bd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\8584865b44c7ea7090bf49c9e83d3d20\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\358bedf05c63dbc37f4dfae29b007388\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\314ec70f78e96f990a410ebfb0808d7c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\631122c2ffb369748a35f74de956a4b6\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\1832352ed1581a432db7a2d68f1a4ef0\AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\a34c3eaa189a78c2ecea0b73efa1dc66\AndroidManifest.xml:24:13-51
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\6c4ba4ee165b8977c61e6532f405da3c\AndroidManifest.xml:30:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.8.0.aar\68cc386906c2bd9d14c8a13734ccc237\AndroidManifest.xml:30:13-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\10d5749cc7d23759fdc63b9b2e10a32e\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f3c9b013eb6735d711fd00d321315dea\AndroidManifest.xml:24:13-58
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Faizan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\4ce338e79fa36d6fd1415f0f3dfcc892\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Adnan Ejaz\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\76e49c412293b4ad36bffd77c9fee4cc\AndroidManifest.xml:26:13-58
