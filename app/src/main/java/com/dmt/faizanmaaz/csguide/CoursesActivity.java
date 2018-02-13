@@ -28,7 +28,7 @@ InterstitialAd interstitialAd;
         madview2.loadAd(adRequest1);
 
         interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        interstitialAd.setAdUnitId("ca-app-pub-8807216744783920/5837974601");
         interstitialAd.loadAd(new AdRequest.Builder().build());
         interstitialAd.setAdListener(new AdListener(){
             @Override
@@ -94,4 +94,5 @@ InterstitialAd interstitialAd;
         shareIntent.setType("text/plain");
         startActivity(Intent.createChooser(shareIntent,"Share this with friends"));
     }
+
 }

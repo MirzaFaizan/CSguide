@@ -2707,16 +2707,15 @@ public final class R {
     public static final int app_name=0x7f0c001f;
     public static final int banner_id=0x7f0c0020;
     public static final int common_google_play_services_unknown_issue=0x7f0c0021;
-    public static final int interstitial=0x7f0c0022;
-    public static final int s1=0x7f0c0023;
-    public static final int s2=0x7f0c0024;
-    public static final int s3=0x7f0c0025;
-    public static final int s4=0x7f0c0026;
-    public static final int s5=0x7f0c0027;
-    public static final int s6=0x7f0c0028;
-    public static final int s7=0x7f0c0029;
-    public static final int search_menu_title=0x7f0c002a;
-    public static final int status_bar_notification_info_overflow=0x7f0c002b;
+    public static final int s1=0x7f0c0022;
+    public static final int s2=0x7f0c0023;
+    public static final int s3=0x7f0c0024;
+    public static final int s4=0x7f0c0025;
+    public static final int s5=0x7f0c0026;
+    public static final int s6=0x7f0c0027;
+    public static final int s7=0x7f0c0028;
+    public static final int search_menu_title=0x7f0c0029;
+    public static final int status_bar_notification_info_overflow=0x7f0c002a;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0d0000;
