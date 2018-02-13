@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Computer Science Guide</string>
+    <string name="banner_id">ca-app-pub-8807216744783920/1467484756</string>
+    <string name="interstitial">ca-app-pub-8807216744783920/5837974601</string>
 </resources>
